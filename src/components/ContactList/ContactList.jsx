@@ -1,7 +1,6 @@
 import s from './ContactList.module.css';
 import PropTypes from 'prop-types';
 import ContactItem from '../ContactItem/ContactItem';
-// import Notification from 'components/Notification';
 
 const ContactList = ({ contacts, onDeleteContact }) => (
   <ul className={s.list}>
